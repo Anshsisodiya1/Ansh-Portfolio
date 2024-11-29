@@ -13,7 +13,7 @@ function Footer({ theme }) {
   return (
     <footer className="p-4 text-center md:flex justify-between">
       {/* =========== GITHUB BUTTON =========== */}
-      <GitHubButton
+      {/* <GitHubButton
         className="self-center"
         href="https://github.com/Anshsisodiya1"
         data-color-scheme={theme}
@@ -23,7 +23,7 @@ function Footer({ theme }) {
         aria-label="Star AnshSisodiya/Anshsisodiya on GitHub"
       >
         Star on Github
-      </GitHubButton>
+      </GitHubButton> */}
       {/* =========== USER COPYRIGHT =========== */}
       <p className="text-zinc-600 self-center mt-2 md:mt-0 dark:text-zinc-300 text-sm text-center font-light">
         {user_info.footer}

@@ -1,5 +1,11 @@
+import { BiLogOut } from "react-icons/bi"
+
 const info = {
     // ============ MAIN DETAILS ============
+
+    logo:{
+          photo: "../logo.webp",
+    },
     main: {
         name: "Ansh Sisodiya",
         description: "I am a dedicated software engineer and a BCA 2nd-year student, specializing in full-stack web development. With a strong foundation in building scalable, secure, and reliable web applications, I bring creativity and technical precision to every project I undertake.. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
@@ -11,7 +17,6 @@ const info = {
     // ============ SOCIAL LINKS ============
     socials: {
         twitter: "https://x.com/Anshsisodiya57",
-		// github: "https://github.com/dsbalico",
 		linkedin: "https://www.linkedin.com/in/ansh-sisodiya-842001313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 		instagram: "https://www.instagram.com/bittuthakur5257/",
     },
@@ -75,95 +80,95 @@ const info = {
             duration: "2023 - Present",
             image: "Ru.webp"
         },
-        {
-            school: "College Dekho",
-            degree: "Full stack Development",
-            duration: "2023 - Present",
-            image: "CD.webp"
-        },
+        // {
+        //     school: "College Dekho",
+        //     degree: "Full stack Development",
+        //     duration: "2023 - Present",
+        //     image: "CD.webp"
+        // },
     ],
 
     // ============ EXPERIENCE ============
     experience: [
-        {
-            position: " ",
-            company: " ",
-            duration: " ",
-            image: "ccci.webp",
-            descriptions: [
-                " ",
-                " ",
-                " ",
-            ]
-        },
-        {
-            position: " ",
-            company: " ",
-            duration: " ",
-            image: " ",
-            descriptions: [
-                " ",
-                " "
-            ]
-        },
+        // {
+        //     position: " ",
+        //     company: " ",
+        //     duration: " ",
+        //     image: "ccci.webp",
+        //     descriptions: [
+        //         " ",
+        //         " ",
+        //         " ",
+        //     ]
+        // },
+        // {
+        //     position: " ",
+        //     company: " ",
+        //     duration: " ",
+        //     image: " ",
+        //     descriptions: [
+        //         " ",
+        //         " "
+        //     ]
+        // },
     ],
 
     // ============ CERTIFICATES ============
     certificates: [
-        {
-            title: " ",
-            description: " ",
-            icon: " ",
-            link: " ",
-        },
-        {
-            title: " ",
-            description: " ",
-            icon: " ",
-            link: " ",
-        },
-        {
-            title: " ",
-            description: " ",
-            icon: " ",
-            link: " " ,
-        },
-        {
-            title: " ",
-            description: " ",
-            icon: " ",
-            link: " ",
-        },
-        {
-            title: " ",
-            description: " ",
-            icon: " ",
-            link: " "
-        },
-        {
-            title: " ",
-            description: " ",
-            icon: " ",
-            link: " "
-        },
-        {
-            title: " ",
-            description: " ",
-            icon: " ",
-            link: " "
-        },
-        {
-            title: " ",
-            description: " ",
-            icon: " ",
-            link: " "
-        },
-        {
-            title: " ",
-            description: " ",
-            icon: " ",
-            link: " "
-        }
+        // {
+        //     title: " ",
+        //     description: " ",
+        //     icon: " ",
+        //     link: " ",
+        // },
+        // {
+        //     title: " ",
+        //     description: " ",
+        //     icon: " ",
+        //     link: " ",
+        // },
+        // {
+        //     title: " ",
+        //     description: " ",
+        //     icon: " ",
+        //     link: " " ,
+        // },
+        // {
+        //     title: " ",
+        //     description: " ",
+        //     icon: " ",
+        //     link: " ",
+        // },
+        // {
+        //     title: " ",
+        //     description: " ",
+        //     icon: " ",
+        //     link: " "
+        // },
+        // {
+        //     title: " ",
+        //     description: " ",
+        //     icon: " ",
+        //     link: " "
+        // },
+        // {
+        //     title: " ",
+        //     description: " ",
+        //     icon: " ",
+        //     link: " "
+        // },
+        // {
+        //     title: " ",
+        //     description: " ",
+        //     icon: " ",
+        //     link: " "
+        // },
+        // {
+        //     title: " ",
+        //     description: " ",
+        //     icon: " ",
+        //     link: " "
+        // }
     ],
 
     // ============ CONTACT ============

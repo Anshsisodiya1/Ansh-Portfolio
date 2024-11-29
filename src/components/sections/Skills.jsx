@@ -5,24 +5,24 @@ import { FaDocker } from "react-icons/fa";
 import { FaAws, FaCss3Alt, FaDigitalOcean, FaGitAlt, FaGitlab, FaHtml5, FaNodeJs, FaPython, FaReact, FaVuejs } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoFirebase } from "react-icons/io5";
-import { SiAntdesign, SiExpress, SiFlask, SiJest, SiNuxtdotjs, SiPassport, SiPostman, SiPythonanywhere, SiSequelize, SiTailwindcss, SiTensorflow } from "react-icons/si";
+import { SiAntdesign, SiExpress, SiFlask, SiJest, SiNuxtdotjs, SiPassport, SiPostman, SiPythonanywhere, SiRedux, SiSequelize, SiTailwindcss, SiTensorflow } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
 function Skills() {
   return (
     <section id="skills" className="mx-4 lg:mx-20">
       {/* =========== SKILLS TITLE =========== */}
-      <h4 className="text-4xl font-bold text-center mt-20 dark:text-white">
+      <h4 className="text-4xl font-bold text-center -mt-60 dark:text-white">
         Technologies I Use.
       </h4>
       {/* =========== LIST OF SKILLS =========== */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4 mt-8">
 				<span className="inline-flex items-center justify-between gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
-          <FaHtml5 className="text-2xl" /> HTML
+          <FaHtml5 className="text-2xl" /> HTML 5
         </span>
 
 				<span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
-          <FaCss3Alt className="text-2xl" /> CSS
+          <FaCss3Alt className="text-2xl" /> CSS 3
         </span>
 				<span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <IoLogoJavascript className="text-2xl" /> JavaScript
@@ -52,9 +52,9 @@ function Skills() {
 				<span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <FaVuejs className="text-2xl" /> VueJS
         </span>
-				<span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
+				{/* <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <SiNuxtdotjs className="text-2xl" /> NuxtJS
-        </span>
+        </span> */}
 				{/* <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <SiJest className="text-2xl" /> Jest
         </span> */}
@@ -62,7 +62,7 @@ function Skills() {
           <SiTensorflow className="text-2xl" /> Tensorflow
         </span> */}
 				<span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
-          <SiAntdesign className="text-2xl" /> Ant Design Vue
+          <SiRedux className="text-2xl" /> Redux
         </span>
 				<span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <FaGitAlt className="text-2xl" /> Git

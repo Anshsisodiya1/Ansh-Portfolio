@@ -4,6 +4,14 @@ import { IoIosArrowForward } from "react-icons/io";
 function Hero() {
   return (
     <section id="hero" className="pb-28 pt-24 sm:pt-28 md:pt-44 flex px-6 lg:px-24">
+        {/* logo */}
+     <div className="logo absolute top-10 left-17 z-50">
+        <img
+          src={user_info.logo.photo}
+          alt="AS logo"
+          className="w-12 h-12 md:w-14 md:h-14 object-cover rounded-full shadow-lg"
+        />
+      </div>
       <div className="self-center">
         <div className="hs-tooltip [--placement:right] w-20 hs-tooltip-toggle">
           <img
