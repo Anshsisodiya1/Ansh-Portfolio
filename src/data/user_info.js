@@ -27,16 +27,16 @@ const info = {
 			title: "React Blog-Site",
 			description: "Developed a fully responsive blog website using React.js, featuring dynamic content rendering and an engaging user interface.",
             technologies: "React js, Css, JavaScript",
-			github: "https://github.com/Anshsisodiya1/React_Blog-site.git",
-            link: "https://ansh-react-blog.netlify.app"
+			github: "https://github.com/Anshsisodiya1/React-blog-site.git",
+            link: "https://ansh-blog-site.netlify.app"
 		},
 
         {
 			title: "Password Generator",
 			description: "This project allows users to generate strong, with options to include uppercase letters, lowercase letters, numbers, and special characters.",
 			technologies: "React js, Css, JavaScript",
-			github: "https://github.com/Anshsisodiya1/Password_Generator.git",
-            link: "https://github.com/dsbalico/YouShare"
+			github: "https://github.com/Anshsisodiya1/React-Password-Generator.git",
+            link: "https://secure-strings.netlify.app"
 		},
 
         {
@@ -56,19 +56,19 @@ const info = {
 		},
 
 		{
-			title: "Sudoku Solver",
-			description: "Sudoku Solver is a web application that can generate or solve sudoku problems using simulated annealing, an optimization algorithm.",
-			technologies: "React, Tailwind, TypeScript",
-			github: "https://github.com/dsbalico/sudoku-solver-using-simulated-annealing",
-            link: "https://sudoku-solver-sa.netlify.app/"
+			title: "Student-Management",
+			description: "Student Management is a web application designed to efficiently manage student records, allowing users to add, update, and view student details",
+			technologies: "React, Material Ui",
+			github: "https://github.com/Anshsisodiya1/Student-management.git",
+            link: "https://react-student-management.netlify.app"
 		},
 
 		{
-			title: "Probability Pick",
-			description: "Probability Pick is a PCSO Lotto Number Generator that calculates the likelihood of selecting winning numbers based on historical draw data.",
-			technologies: "React, Tailwind, Flask",
-			github: "https://github.com/dsbalico/pcso-lotto-number-generator",
-            link: "https://probability-pick.netlify.app/"
+			title: "Weather App",
+			description: "Weather App is a web application that provides real-time weather updates and forecasts for any location.",
+            technologies: "React, Css",
+			github: "https://github.com/Anshsisodiya1/React_Weather.git",
+            link: "https://know-your-city-weather.netlify.app"
 		},
     ],
 
