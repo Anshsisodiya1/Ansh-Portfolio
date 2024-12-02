@@ -10,7 +10,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 function Skills() {
   return (
-    <section id="skills" className="mx-4 lg:mx-20">
+    <section id="skills" className="mx-4 lg:mx-20 mt-80">
       {/* =========== SKILLS TITLE =========== */}
       <h4 className="text-4xl font-bold text-center -mt-60 dark:text-white">
         Technologies I Use.
