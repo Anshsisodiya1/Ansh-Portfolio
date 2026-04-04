@@ -1,14 +1,10 @@
-/** @type {import('tailwindcss').Config} */
 export default {
-  darkMode: "class",
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/preline/preline.js",
+    "./node_modules/preline/preline.js" // 👈 IMPORTANT
   ],
-  theme: {
-    extend: {},
-  },
-  // eslint-disable-next-line no-undef
-  plugins: [require("preline/plugin")],
+  plugins: [
+    require('preline/plugin') // 👈 IMPORTANT
+  ],
 };
