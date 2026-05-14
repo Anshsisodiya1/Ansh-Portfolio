@@ -1,9 +1,5 @@
 import user_info from "../../data/user_info.js";
 import { FaLandmark } from "react-icons/fa";
-// import { FaBuildingUser } from "react-icons/fa6";
-// import { FcGoogle } from "react-icons/fc";
-// import { PiCertificateFill } from "react-icons/pi";
-// import { SiHackerrank, SiIbmcloud } from "react-icons/si"; // ✅ FIXED HERE
 
 function EducationAndExperience() {
   return (

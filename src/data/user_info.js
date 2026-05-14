@@ -96,29 +96,20 @@ const info = {
   ],
 
   // ============ EXPERIENCE ============
-  experience: [
-    // {
-    //     position: " ",
-    //     company: " ",
-    //     duration: " ",
-    //     image: "ccci.webp",
-    //     descriptions: [
-    //         " ",
-    //         " ",
-    //         " ",
-    //     ]
-    // },
-    // {
-    //     position: " ",
-    //     company: " ",
-    //     duration: " ",
-    //     image: " ",
-    //     descriptions: [
-    //         " ",
-    //         " "
-    //     ]
-    // },
-  ],
+experience: [
+  {
+    position: "MERN Full Stack Web Development Intern",
+    company: "Smashing Infolabs Private Limited",
+    duration: "March 2026 - May 2026 | 3 Months",
+    image: "logo-white.webp",
+    descriptions: [
+      "Built responsive MERN stack web applications.",
+      "Integrated REST APIs and database operations.",
+      "Developed reusable React.js components.",
+      "Worked on debugging and performance improvements."
+    ]
+  }
+],
 
   // ============ CERTIFICATES ============
   certificates: [
@@ -128,54 +119,6 @@ const info = {
     //     icon: " ",
     //     link: " ",
     // },
-    // {
-    //     title: " ",
-    //     description: " ",
-    //     icon: " ",
-    //     link: " ",
-    // },
-    // {
-    //     title: " ",
-    //     description: " ",
-    //     icon: " ",
-    //     link: " " ,
-    // },
-    // {
-    //     title: " ",
-    //     description: " ",
-    //     icon: " ",
-    //     link: " ",
-    // },
-    // {
-    //     title: " ",
-    //     description: " ",
-    //     icon: " ",
-    //     link: " "
-    // },
-    // {
-    //     title: " ",
-    //     description: " ",
-    //     icon: " ",
-    //     link: " "
-    // },
-    // {
-    //     title: " ",
-    //     description: " ",
-    //     icon: " ",
-    //     link: " "
-    // },
-    // {
-    //     title: " ",
-    //     description: " ",
-    //     icon: " ",
-    //     link: " "
-    // },
-    // {
-    //     title: " ",
-    //     description: " ",
-    //     icon: " ",
-    //     link: " "
-    // }
   ],
 
   // ============ CONTACT ============
