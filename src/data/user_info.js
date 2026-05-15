@@ -6,14 +6,15 @@ const info = {
   logo: {
     photo: "../logo.webp",
   },
-  main: {
-    name: "Ansh Sisodiya",
-    description:
-      "I am a dedicated software engineer and a BCA 3rd-year student, specializing in full-stack web development. With a strong foundation in building scalable, secure, and reliable web applications, I bring creativity and technical precision to every project I undertake.. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
-    role: "Full-Stack Developer",
-    photo: "../ansh.webp",
-    email: "sidoiyaansh785@gmail.com",
-  },
+main: {
+  name: "Ansh Sisodiya",
+  description:
+    "A dedicated software engineer with a strong foundation in full-stack web development, building applications that are scalable, secure, and built to last. Currently pursuing a BCA, I blend academic rigour with hands-on engineering — approaching every project with technical precision and creative intent. I thrive on complex problem-solving, turning ambiguous challenges into clean, well-architected solutions. My work is guided by industry best practices, a deep respect for code quality, and a genuine curiosity that keeps me continuously learning and growing.",
+  role: "Full-Stack Developer",
+  photo: "../ansh.webp",
+  email: "sidoiyaansh785@gmail.com",
+},
+
 
   // ============ SOCIAL LINKS ============
   socials: {
@@ -27,8 +28,9 @@ const info = {
   projects: [
     {
       title: "Hostelite – Hostel Management System",
-      description: "Built a scalable full-stack hostel management system enabling efficient student data handling, secure authentication, payment tracking, and meal management. Focused on performance, clean UI, and real-world deployment using Vercel (frontend) and Render (backend). Note: Backend may take a few seconds to respond initially due to cold start on free-tier hosting.",
-      technologies: "React js, Node.js, Express.js, MongoDB, CSS, JavaScript",
+      description:
+        "Developed a full-stack hostel management platform with secure authentication, student management, payment tracking, and meal management features.",
+      technologies: "React.js, Node.js, Express.js, MongoDB, JavaScript, CSS",
       github: "https://github.com/Anshsisodiya1/Hostelite",
       link: "https://hostelite-olive.vercel.app/",
     },
@@ -36,35 +38,35 @@ const info = {
     {
       title: "Password Generator",
       description:
-        "This project allows users to generate strong, with options to include uppercase letters, lowercase letters, numbers, and special characters.",
-      technologies: "React js, Css, JavaScript",
+        "Built a password generator application with customizable options for secure and strong password creation.",
+      technologies: "React.js, JavaScript, CSS",
       github: "https://github.com/Anshsisodiya1/React-Password-Generator.git",
       link: "https://secure-strings.netlify.app",
     },
 
     {
-      title: "To do List",
+      title: "To Do List",
       description:
-        "This project enables users to add, edit, and delete tasks, helping them organize and prioritize their daily activities efficiently.",
-      technologies: "React js, Css, JavaScript",
+        "Created a task management application that allows users to add, edit, and delete daily tasks efficiently.",
+      technologies: "React.js, JavaScript, CSS",
       github: "https://github.com/Anshsisodiya1/React-todo.git",
       link: "https://ansh-react-todo.netlify.app",
     },
 
     {
-      title: "Diital Clock",
+      title: "Digital Clock",
       description:
-        "Digital Clock is created using HTML, CSS, and JavaScript.This project displays the current time dynamically, updating in real-time with an elegant design.",
-      technologies: "HTML, Css, JavaScript",
+        "Designed a real-time digital clock application with dynamic time updates and a clean user interface.",
+      technologies: "HTML, CSS, JavaScript",
       github: "https://github.com/Anshsisodiya1/Digital-Clock.git",
-      link: " https://anshsisodiya1.github.io/Digital-Clock/",
+      link: "https://anshsisodiya1.github.io/Digital-Clock/",
     },
 
     {
-      title: "Student-Management",
+      title: "Student Management System",
       description:
-        "Student Management is a web application designed to efficiently manage student records, allowing users to add, update, and view student details",
-      technologies: "React, Material Ui",
+        "Built a student management application to manage, update, and display student records efficiently.",
+      technologies: "React.js, Material UI",
       github: "https://github.com/Anshsisodiya1/Student-management.git",
       link: "https://react-student-management.netlify.app",
     },
@@ -72,8 +74,8 @@ const info = {
     {
       title: "Weather App",
       description:
-        "Weather App is a web application that provides real-time weather updates and forecasts for any location.",
-      technologies: "React, Css",
+        "Developed a weather application that provides real-time weather updates and forecasts for locations worldwide.",
+      technologies: "React.js, CSS",
       github: "https://github.com/Anshsisodiya1/React_Weather.git",
       link: "https://know-your-city-weather.netlify.app",
     },
@@ -82,34 +84,40 @@ const info = {
   // ============ EDUCATION ============
   education: [
     {
-      school: "Renaissance University Indore, India",
+      school: "Renaissance University Indore, Madhya Pradesh",
       degree: "Bachelor in Computer Science",
       duration: "2023 - Present",
       image: "Ru.webp",
     },
-    // {
-    //     school: "College Dekho",
-    //     degree: "Full stack Development",
-    //     duration: "2023 - Present",
-    //     image: "CD.webp"
-    // },
+    {
+      school: "S.R.P.V.M. Inter College",
+      degree: "Intermediate (Class XII)",
+      duration: "2022 - 2023",
+      image: "school.webp",
+    },
+    {
+      school: "Gyandeep Vidya Bhawan Public School",
+      degree: "High School (Class X)",
+      duration: "2021 - 2022",
+      image: "school.webp",
+    },
   ],
 
   // ============ EXPERIENCE ============
-experience: [
-  {
-    position: "MERN Full Stack Web Development Intern",
-    company: "Smashing Infolabs Private Limited",
-    duration: "March 2026 - May 2026 | 3 Months",
-    image: "logo-white.webp",
-    descriptions: [
-      "Built responsive MERN stack web applications.",
-      "Integrated REST APIs and database operations.",
-      "Developed reusable React.js components.",
-      "Worked on debugging and performance improvements."
-    ]
-  }
-],
+  experience: [
+    {
+      position: "MERN Full Stack Web Development Intern",
+      company: "Smashing Infolabs Private Limited",
+      duration: "March 2026 - May 2026 | 3 Months",
+      image: "logo-white.webp",
+      descriptions: [
+        "Built responsive MERN stack web applications.",
+        "Integrated REST APIs and database operations.",
+        "Developed reusable React.js components.",
+        "Worked on debugging and performance improvements.",
+      ],
+    },
+  ],
 
   // ============ CERTIFICATES ============
   certificates: [
@@ -125,7 +133,7 @@ experience: [
   contact: {
     title: "Let's Get in Touch: Ways to Connect with Me",
     description:
-      "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at danielshan.balico@gmail.com. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Finally, if you prefer to connect on social media, you can connect with me using the social media links below.",
+      "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at . I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Finally, if you prefer to connect on social media, you can connect with me using the social media links below.",
   },
 
   // ============ FOOTER ============

@@ -18,7 +18,6 @@ function Hero() {
 
       <div className="self-center w-full">
         <div className="flex gap-2 align-center flex-wrap md:flex-nowrap">
-          
           {/* LEFT CONTENT */}
           <div className="lg:w-[80%] text-zinc-900 dark:text-zinc-100 self-center">
             <h2 className="text-xl">{user_info.main.role}</h2>
@@ -57,12 +56,31 @@ function Hero() {
               alt="Ansh sisodiya photo"
             />
 
-            {/* Tooltip */}
-            <span className="absolute left-1/2 -translate-x-1/2 top-full mt-3 bg-black text-white text-xs px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300 whitespace-nowrap z-50">
-              Hello! 👋 How are you doing? 🤔
-            </span>
-          </div>
+            {/* Professional Tooltip */}
+            <div
+              className="absolute left-1/2 -translate-x-1/2 top-full mt-4
+  opacity-0 group-hover:opacity-100 group-hover:translate-y-1
+  transition-all duration-300 pointer-events-none"
+            >
+              <div
+                className="relative bg-white dark:bg-zinc-900
+    border border-zinc-200 dark:border-zinc-700
+    shadow-xl rounded-xl px-4 py-2"
+              >
+                {/* Arrow */}
+                <div
+                  className="absolute -top-2 left-1/2 -translate-x-1/2
+      w-4 h-4 bg-white dark:bg-zinc-900
+      border-l border-t border-zinc-200 dark:border-zinc-700
+      rotate-45"
+                ></div>
 
+                <p className="text-sm font-medium text-zinc-700 dark:text-zinc-200 whitespace-nowrap">
+                  Available for opportunities & collaborations
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

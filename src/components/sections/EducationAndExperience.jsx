@@ -1,5 +1,5 @@
 import user_info from "../../data/user_info.js";
-import { FaLandmark } from "react-icons/fa";
+import { FaLandmark, FaBriefcase } from "react-icons/fa";
 
 function EducationAndExperience() {
   return (
@@ -59,6 +59,12 @@ function EducationAndExperience() {
       
       {/* =========== EXPERIENCE =========== */}
       <div className="w-full">
+
+                {/* =========== EDUCATION TITLE =========== */}
+        <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
+          <FaBriefcase className="text-xl text-red-800 dark:text-red-500" />
+          Experience
+        </h4>
 
         <div className="md:h-[480px] md:overflow-y-scroll scroll-smooth">
           {user_info.experience.map((exp, index) => {
